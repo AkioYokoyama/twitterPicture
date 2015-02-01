@@ -28,5 +28,5 @@ class Tweet
     else
       client.update(tweet)
     end
-  end # tweet method end
-end # class-end
+  end
+end
