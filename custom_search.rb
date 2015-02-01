@@ -21,7 +21,12 @@ class CustomSearch
     url << '&alt=json'
 
     return url
-  end # method end
+  end
+
+  def get_uri url
+    escape_url = URI.escape(url)
+    return URI.parse(escape_url)
+  end
 
   def get_search_result_json uri
     https = Net::HTTP.new(uri.host, uri.port)
@@ -31,5 +36,5 @@ class CustomSearch
     }
 
     return res
-  end # method end
-end # class end
+  end
+end

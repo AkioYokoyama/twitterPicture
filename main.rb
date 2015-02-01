@@ -13,8 +13,7 @@ config = YAML.load_file 'config.yml'
 # SearchImage
 custom_search = CustomSearch.new
 url = custom_search.get_custom_search_api_url
-url = URI.escape(url)
-uri = URI.parse(url)
+uri = custom_search.get_uri(url)
 res = custom_search.get_search_result_json(uri)
 result_json = JSON.parse(res.body)
 
