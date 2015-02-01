@@ -1,0 +1,15 @@
+# Setting of GoogleCutomSearchApi
+API_KEY: # Please enter a API KEY
+SEARCH_ENGINE_ID: # Please enter a SEARCH ENGINE ID
+API_BASE_URL: https://www.googleapis.com/customsearch/v1?key=
+SEARCH_WORD: # Please enter a word of searching an image
+SEARCH_RESULT_INDEX: # Please enter a num of result index
+
+# Setting of Twitter
+CONSUMER_KEY: # Please enter a CONSUMER KEY
+CONSUMER_SECRET:  # Please enter a CONSUMER SECRET
+OAUTH_TOKEN:  # Please enter a OAUTH TOKEN
+OAUTH_TOKEN_SECRET:  # Please enter a OAUTH TOKEN SECRET
+
+# Temporary preservation path of the image
+TMP_DIR: # Please enter a temporary preservation path of the image
